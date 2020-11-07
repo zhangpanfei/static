@@ -1,0 +1,66 @@
+.kratos-cover .desc span {
+  padding: 0 15px;
+}
+
+.kratos-cover .desc .z-yiyan-verse {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 24px;
+}
+
+.kratos-cover .desc .z-yiyan-author {
+  font-size: 19px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 530px) {
+  .kratos-cover .desc .z-yiyan-verse {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .kratos-cover .desc .z-yiyan-author {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .waifu {
+    display: block !important;
+    transform: scale(0.52);
+  }
+}
+
+#kratos-header-section .sub-menu {
+  min-width: 96px;
+}
+
+@keyframes menu {
+  0% {
+    box-shadow: #000 0 0 5px 1px;
+  }
+  20% {
+    box-shadow: #363263 0 0 5px 1px;
+  }
+  50% {
+    box-shadow: #afafaf 0 0 5px 1px;
+  }
+  75% {
+    box-shadow: #e8aeb6 0 0 5px 1px;
+  }
+  100% {
+    box-shadow: #3f5284 0 0 5px 1px;
+  }
+}
+
+.js-kratos-nav-toggle i,
+.js-kratos-nav-toggle i::before,
+.js-kratos-nav-toggle i::after {
+  animation: menu 5s linear infinite;
+}
+
+.toon .js-kratos-nav-toggle i,
+.toon .js-kratos-nav-toggle i::before,
+.toon .js-kratos-nav-toggle i::after {
+  /* animation: menu 5s linear infinite; */
+  box-shadow: #000 0 0 0px 0px;
+  animation: menu 0s;
+}
